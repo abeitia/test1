@@ -7,7 +7,7 @@ import { ImagesComponent } from './components/images/images.component';
 const routes: Routes = [
 {path: '', component:ImagesComponent},
 {path: 'image/:id', component:ImageComponent},
-{path: '*', component:ImagesComponent}  
+{path: '**', component:ImagesComponent}  
 ];
 
 @NgModule({
